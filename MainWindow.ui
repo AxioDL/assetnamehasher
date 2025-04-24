@@ -98,6 +98,11 @@
         </item>
         <item>
          <property name="text">
+          <string>CRC64</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
           <string>MD5</string>
          </property>
         </item>

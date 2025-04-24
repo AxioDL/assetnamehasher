@@ -11,6 +11,6 @@ find_package(Qt5Widgets)
 add_executable(assethasher WIN32 MACOSX_BUNDLE
     MainWindow.ui MainWindow.hpp MainWindow.cpp
     CRC32.hpp CRC32.cpp
-    main.cpp)
+    main.cpp CRC64.cpp CRC64.hpp)
 
 target_link_libraries(assethasher ${Qt5Widgets_LIBRARIES})
